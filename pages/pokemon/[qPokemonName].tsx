@@ -18,6 +18,7 @@ const useStyles = createStyles((theme) => {
       boxShadow: isDarkMode ? "" : "0 0 7px 1px rgba(74,74,74,0.2)",
       color: isDarkMode ? "#fff" : "#000",
       button: {
+        color: isDarkMode ? "#fff" : "#000",
         "&[data-active]": {
           color: isDarkMode ? "#fff" : "#367aac",
         },
