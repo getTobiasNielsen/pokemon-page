@@ -16,7 +16,7 @@ export default function Document() {
           rel="stylesheet"
         />
       </Head>
-      <body className="h-full min-h-full dark:bg-ugly-darkblue">
+      <body className="h-full min-h-screen dark:bg-ugly-darkblue">
         <Main />
         <NextScript />
       </body>
